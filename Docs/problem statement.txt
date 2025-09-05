@@ -1,0 +1,88 @@
+Organization: Ministry of Earth Sciences (MoES)
+Title: Integrated Platform for Crowdsourced Ocean Hazard Reporting and Social Media Analytics
+Category: Software
+Theme: Disaster Management
+
+🔎 What it Means
+
+The Ministry of Earth Sciences wants a platform that:
+
+Collects hazard-related information from people (crowdsourcing).
+
+Example: Fishermen, coastal residents, travelers reporting unusual tides, oil spills, floods, or accidents.
+
+Could be done via a mobile/web app where people submit text, images, or GPS-tagged reports.
+
+Analyzes social media activity for early signals of hazards.
+
+Example: Detect tweets, Facebook/Instagram posts, or local WhatsApp discussions about “huge waves in Chennai” or “oil spill in Odisha coast”.
+
+Use AI/NLP tools to extract keywords, detect anomalies, classify whether it’s relevant to hazards.
+
+Integrates both data sources (citizen reports + social media monitoring) into one dashboard.
+
+Show hazard reports on a map (with geolocation).
+
+Highlight trends or alerts (spike in flood mentions in Kerala).
+
+Provide actionable insights for disaster response teams.
+
+🛠️ Core Functionalities
+
+Crowdsourcing App/Portal
+
+Simple app where people can upload hazard reports with:
+
+Text description
+
+Photos/videos
+
+GPS location
+
+Could also allow voice-based input (useful in rural areas).
+
+Social Media Analytics
+
+Use APIs (Twitter/X, Reddit, YouTube comments, etc.) to fetch posts.
+
+Run NLP + sentiment analysis to detect hazard-related content.
+
+Detect spikes in discussions (e.g., sudden rise in “cyclone”, “flood”, “earthquake”).
+
+AI Models
+
+Classification: Filter out irrelevant posts.
+
+Anomaly detection: Identify unusual patterns.
+
+Geotagging: Map posts to specific coastal regions.
+
+Visualization Dashboard
+
+Map view with pins for reported hazards.
+
+Graphs showing trend analysis of keywords.
+
+Alert system (color-coded severity levels).
+
+🎯 Expected Prototype (for SIH demo)
+
+You don’t need to build a full-scale production system. Instead, show:
+
+Mobile/web mockup (React/Flutter/Figma demo) where a user reports a hazard.
+
+Dataset simulation (take sample tweets, e.g., “Tsunami warning Chennai” + random noise).
+
+AI processing: Run a simple NLP pipeline (keyword detection, sentiment analysis, classification).
+
+Dashboard: Map + alert visualization (Flask/Django backend with Leaflet/Google Maps API).
+
+This will convince judges you’ve cracked the core idea.
+
+🚀 Why It’s Powerful
+
+Leverages citizens as sensors (crowdsourcing).
+
+Uses AI-powered OSINT (social media) for real-time situational awareness.
+
+Helps MoES respond faster to cyclones, tsunamis, floods, oil spills, accidents.
