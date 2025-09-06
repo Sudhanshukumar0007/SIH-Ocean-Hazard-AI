@@ -1,0 +1,74 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "natural-disasters-from-social-media",
+  "dataset_size": 52932817,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/melisekm/natural-disasters-from-social-media@b16966b68eba8f44b6534bc8cd82e9fa02c53188/train.csv": {
+      "num_bytes": 39817704,
+      "checksum": null
+    },
+    "hf://datasets/melisekm/natural-disasters-from-social-media@b16966b68eba8f44b6534bc8cd82e9fa02c53188/validation.csv": {
+      "num_bytes": 4977163,
+      "checksum": null
+    },
+    "hf://datasets/melisekm/natural-disasters-from-social-media@b16966b68eba8f44b6534bc8cd82e9fa02c53188/test.csv": {
+      "num_bytes": 4981112,
+      "checksum": null
+    }
+  },
+  "download_size": 49775979,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "event_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "event_type_detail": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 102708796,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 42341997,
+      "num_examples": 169109,
+      "dataset_name": "natural-disasters-from-social-media"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 5293895,
+      "num_examples": 21139,
+      "dataset_name": "natural-disasters-from-social-media"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 5296925,
+      "num_examples": 21139,
+      "dataset_name": "natural-disasters-from-social-media"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
